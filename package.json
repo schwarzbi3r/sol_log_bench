@@ -4,7 +4,7 @@
   "description": "Parse solana logs to create compute unit benchmarks",
   "main": "lib/index.js",
   "scripts": {
-    "build": "rimraf lib && tsc",
+    "compile": "rimraf lib && tsc",
     "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "npx eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "test": "mocha",
