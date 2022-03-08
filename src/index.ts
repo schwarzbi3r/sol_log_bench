@@ -1,4 +1,4 @@
-import { color } from './colors'
+import { color } from "./colors"
 
 const COMPUTE_LIMIT = 200000
 

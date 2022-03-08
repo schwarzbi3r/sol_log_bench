@@ -1,6 +1,6 @@
 import { parseLogs, printLogs, parseAndPrintLogs} from "../src/index";
-import 'mocha';
-import { expect } from 'chai';
+import "mocha";
+import { expect } from "chai";
 
 const simpleLogs = [
     "Program Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS invoke [1]",
