@@ -56,4 +56,4 @@ On the test side of things:
 
 ## Installation
 
-`yarn install https://github.com/schwarzbi3r/sol_log_bench`
+`yarn add https://github.com/schwarzbi3r/sol_log_bench`
