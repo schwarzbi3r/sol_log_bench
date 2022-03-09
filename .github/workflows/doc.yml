@@ -1,0 +1,22 @@
+name: Typedoc
+on:
+  release:
+    types: [created]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      # Setup .npmrc file to publish to npm
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '17.x'
+          registry-url: 'https://registry.npmjs.org'
+      - run: yarn
+      - run: yarn typedoc
+      - run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add -f doc
+        git commit -m "Latest docs"
+        git push origin `git subtree split --prefix doc $DEPLOY_BRANCH`:gh-pages --force

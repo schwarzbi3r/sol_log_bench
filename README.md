@@ -57,3 +57,7 @@ On the test side of things:
 ## Installation
 
 `yarn add https://github.com/schwarzbi3r/sol_log_bench`
+
+## Typedoc
+
+You can find the Typedoc's at https://schwarzbi3r.github.io/solana_log_bench
