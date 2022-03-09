@@ -56,7 +56,7 @@ On the test side of things:
 
 ## Installation
 
-`yarn add https://github.com/schwarzbi3r/sol_log_bench`
+`yarn add https://github.com/schwarzbi3r/sol_log_bench#v1.0.0`
 
 ## Typedoc
 
