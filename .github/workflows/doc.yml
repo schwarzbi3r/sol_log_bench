@@ -1,7 +1,9 @@
 name: Typedoc
 on:
+  push:
+    branches: [ doc_test ]
   release:
-    types: [created]
+    types: [ created ]
 jobs:
   build:
     runs-on: ubuntu-latest
