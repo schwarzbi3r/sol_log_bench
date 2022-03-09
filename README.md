@@ -60,4 +60,4 @@ On the test side of things:
 
 ## Typedoc
 
-You can find the Typedoc's at https://schwarzbi3r.github.io/solana_log_bench
+You can find the Typedoc's at https://schwarzbi3r.github.io/sol_log_bench
