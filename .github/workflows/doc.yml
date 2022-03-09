@@ -17,8 +17,8 @@ jobs:
       - run: yarn
       - run: yarn typedoc
       - run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git add -f doc
-        git commit -m "Latest docs"
-        git push origin `git subtree split --prefix doc $DEPLOY_BRANCH`:gh-pages --force
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -f doc
+          git commit -m "Latest docs"
+          git push origin `git subtree split --prefix doc $DEPLOY_BRANCH`:gh-pages --force
