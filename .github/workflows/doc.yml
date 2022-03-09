@@ -22,4 +22,4 @@ jobs:
           git add -f doc
           git commit -m "Latest docs"
 
-          git push origin -u `git subtree split --prefix doc $DEPLOY_BRANCH`:gh-pages --force
+          git push -u origin `git subtree split --prefix doc $DEPLOY_BRANCH`:refs/heads/gh-pages --force
